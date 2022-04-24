@@ -1,3 +1,174 @@
+
+/*background color and top text*/
 body {
-    background: rgb(0, 221, 255);
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgrey;
   }
+
+  /*Welcome*/
+header {
+  background-color: rgb(138, 255, 245, 0.5);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
+  width: 100%;
+  text-align:left;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.993);
+}
+
+/*left side background color*/
+nav {
+  float: left;
+  width: 19%;
+  height: 300px;
+  background-color: rgba(5, 106, 124, 0.7);
+  padding: 20px;
+}
+
+
+/*tabs*/
+nav ul {
+  font-size: 22px;
+}
+
+.home {
+  position: relative;
+  display: inline-flex;
+  padding: 10px 60px;
+  background: white;
+  color: rgb(23, 114, 147);
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+a.active, a:hover{
+  background: rgb(200, 200, 200);
+  transition: 1s;
+}
+
+
+
+.about-me {
+  position: relative;
+  display: inline-flex;
+  padding: 10px 35px;
+  background: white;
+  color: rgb(23, 114, 147);
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.proj {
+  position: relative;
+  display: inline-flex;
+  padding: 10px 32px;
+  background: white;
+  color: rgb(23, 114, 147);
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.resume {
+  position: relative;
+  display: inline-flex;
+  padding: 10px 48px;
+  background: white;
+  color: rgb(23, 114, 147);
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+
+/*middle section*/
+article {
+  float:inline-start;
+  padding: 20px;
+  width: 70%;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+}
+
+.img-me {
+  width: 150px;
+  height: 280px;
+  position: relative;
+  left: 820px;
+}
+
+.quote {
+  width: 150px;
+  height: 280px;
+  position: relative;
+  left: 300px;
+}
+
+/*socials*/
+footer {
+  background-color: rgb(138, 255, 245, 0.5);
+  padding: 15px;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.instagram {
+  color: rgb(23, 114, 147);
+}
+
+.linkedin {
+  color: rgb(23, 114, 147);
+}
+
+
+.email {
+  color: rgb(23, 114, 147);
+}
+
+/*About page*/
+
+.london {
+  width: 200px;
+  height: 280px;
+  position: relative;
+  left: 300px;
+}
+
+.bucky-p {
+  width: 320px;
+  height: 250px;
+  position: relative;
+  left: 800px;
+  bottom: 400px;px;
+}
+
+.vegas {
+  width: 200px;
+  height: 280px;
+  position: relative;
+  left: 20px;
+}
+
+.lucy {
+  width: 300px;
+  height: 150px;
+  position: relative;
+  left: 30px;
+  bottom: 80px;
+}
+
+.millie {
+  width: 200px;
+  height: 350px;
+  position: relative;
+  left: 50px;
+}
+
+.six {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  left: 50px;
+  bottom: 300px;
+}
+
