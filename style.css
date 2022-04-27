@@ -4,6 +4,10 @@ body {
     color:black;
     font-family: 'Courier New', Courier, monospace;
     background-color: lightgrey;
+    width: 100%;
+    margin: 0;
+    float: left;
+    overflow-x: hidden;
   }
 
   /*Welcome*/
@@ -23,7 +27,7 @@ nav {
   width: 19%;
   height: 300px;
   background-color: rgba(5, 106, 124, 0.7);
-  padding: 20px;
+  padding: 20px 0px;
 }
 
 
@@ -80,27 +84,37 @@ a.active, a:hover{
 }
 
 
-/*middle section*/
+/*middle section and "Home" page*/
 article {
   float:inline-start;
   padding: 20px;
-  width: 70%;
+  width: 1000%;
   height: 300px;
   background-color: rgb(255, 255, 255);
 }
+
+article p {
+  font-size: 20px;
+  text-indent: 10px;
+}
+
 
 .img-me {
   width: 150px;
   height: 280px;
   position: relative;
-  left: 820px;
+  left: 950px;
+  bottom: 220px;
+ 
+  
 }
 
 .quote {
   width: 150px;
   height: 280px;
   position: relative;
-  left: 300px;
+  left: 620px;
+  bottom: 220px;
 }
 
 /*socials*/
@@ -131,37 +145,39 @@ footer {
   width: 200px;
   height: 280px;
   position: relative;
-  left: 300px;
+  left: 400px;
 }
 
 .bucky-p {
-  width: 320px;
-  height: 250px;
+  width: 250px;
+  height: 170px;
   position: relative;
-  left: 800px;
-  bottom: 400px;px;
+  left: 700px;
+  bottom: 695px;
 }
 
 .vegas {
   width: 200px;
   height: 280px;
   position: relative;
-  left: 20px;
+  left: 600px;
+  bottom: 380px;
 }
 
 .lucy {
   width: 300px;
   height: 150px;
   position: relative;
-  left: 30px;
-  bottom: 80px;
+  right: 200px;
+  bottom: 700px;
 }
 
 .millie {
   width: 200px;
   height: 350px;
   position: relative;
-  left: 50px;
+  left: 60px;
+  top: 100px;
 }
 
 .six {
@@ -169,6 +185,15 @@ footer {
   height: 300px;
   position: relative;
   left: 50px;
-  bottom: 300px;
+  bottom: 200px;
 }
+
+.ham {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  left: 500px;
+  bottom: 200px;
+}
+
 
